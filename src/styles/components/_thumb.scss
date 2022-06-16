@@ -1,0 +1,48 @@
+.thumb{
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 335px;
+  height: 255px;
+
+  border-radius: $radius-m;
+  background-color: $primary;
+
+  overflow: hidden;
+
+  &::before{
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: $gradient-thumb;
+  }
+
+  @media screen and (min-width: 768px){
+    width: 340px;
+    height: 340px;
+  }
+}
+
+.thumb-illustration{
+  width: 100%;
+  height: 100%;
+  min-width: 335px;
+  min-height: 255px;
+
+  object-fit: cover;
+}
+
+.thumb-title{
+  position: absolute;
+  bottom: 0; left: 0;
+  padding: 15px 20px;
+
+  color: $white;
+  font-size: 1.125rem;
+  line-height: 1.6rem;
+  font-weight: 500;
+
+  @media screen and (min-width: 768px){ padding: 20px; }
+}
