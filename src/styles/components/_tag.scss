@@ -1,0 +1,13 @@
+.tag{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  min-height: 20px;
+  min-width: 70px;
+  padding: 3px 22px;
+  border-radius: $radius-m;
+
+  background-color: $primary;
+  color: $white;
+}
