@@ -4,6 +4,10 @@
 @import 'base/reset';
 @import 'base/general';
 
+// Mixins
+
+@import 'mixins/media-queries';
+
 // Components
 
 @import 'components/tag';

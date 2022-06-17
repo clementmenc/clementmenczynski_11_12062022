@@ -19,7 +19,7 @@
     background: $gradient-thumb;
   }
 
-  @media screen and (min-width: 768px){
+  @include for-desktop{
     width: 340px;
     height: 340px;
   }
